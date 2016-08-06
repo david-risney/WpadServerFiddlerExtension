@@ -1,0 +1,8 @@
+*.swp
+Backup
+_UpgradeReport_Files
+dhcp-example.cap
+UpgradeLog.XML
+bin/
+obj/
+installer/

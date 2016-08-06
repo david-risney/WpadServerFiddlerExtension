@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpadDhcpServerLibrary", "WpadDhcpServerLibrary\WpadDhcpServerLibrary.csproj", "{A9070433-A1CE-4F5F-8AEA-924D784AD819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpadDhcpServerApplication", "WpadDhcpServerApplication\WpadDhcpServerApplication.csproj", "{93D7CFE1-D13A-45E0-B7FF-421DC25D0F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpadFiddlerExtension", "WpadFiddlerExtension\WpadFiddlerExtension.csproj", "{A7CC0A19-D7E1-47FB-9E2A-8EA4E314F1C7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A9070433-A1CE-4F5F-8AEA-924D784AD819} = {A9070433-A1CE-4F5F-8AEA-924D784AD819}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9070433-A1CE-4F5F-8AEA-924D784AD819}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{A9070433-A1CE-4F5F-8AEA-924D784AD819}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{A9070433-A1CE-4F5F-8AEA-924D784AD819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9070433-A1CE-4F5F-8AEA-924D784AD819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D7CFE1-D13A-45E0-B7FF-421DC25D0F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D7CFE1-D13A-45E0-B7FF-421DC25D0F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D7CFE1-D13A-45E0-B7FF-421DC25D0F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D7CFE1-D13A-45E0-B7FF-421DC25D0F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CC0A19-D7E1-47FB-9E2A-8EA4E314F1C7}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CC0A19-D7E1-47FB-9E2A-8EA4E314F1C7}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{A7CC0A19-D7E1-47FB-9E2A-8EA4E314F1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CC0A19-D7E1-47FB-9E2A-8EA4E314F1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -22,3 +22,5 @@ By default, after installation the WPAD server is not running when Fiddler start
 * If on a network with a DHCP server the WPAD server will have to race the network's DHCP server to respond to the client and may not win.
 * Only uses DHCPv4. IPv6 not supported.
 
+## Install
+An [installer](https://deletethis.net/dave/wpadserverfiddlerextension/WpadServerFiddlerExtension.exe) is available if you don't want to build from source.

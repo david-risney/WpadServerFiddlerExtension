@@ -24,3 +24,6 @@ By default, after installation the WPAD server is not running when Fiddler start
 
 ## Install
 An [installer](https://deletethis.net/dave/wpadserverfiddlerextension/WpadServerFiddlerExtension.exe) is available if you don't want to build from source.
+
+## Screenshot
+![Screenshot of WPAD Server Fiddler Extension](WpadServerFiddlerExtension.png)
